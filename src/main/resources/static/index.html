@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <h1>Number Converter</h1>
+
+    <div class="conversion-container">
+        <h2>Binary to Decimal</h2>
+        <input type="text" id="binaryToDecimalInput" placeholder="Enter binary number">
+        <button onclick="binaryToDecimal()">Convert</button>
+        <p id="binaryToDecimalResult"></p>
+    </div>
+
+    <div class="conversion-container">
+        <h2>Decimal to Binary</h2>
+        <input type="text" id="decimalToBinaryInput" placeholder="Enter decimal number">
+        <button onclick="decimalToBinary()">Convert</button>
+        <p id="decimalToBinaryResult"></p>
+    </div>
+
+    <div class="conversion-container">
+        <h2>Binary to Hex</h2>
+        <input type="text" id="binaryToHexInput" placeholder="Enter binary number">
+        <button onclick="binaryToHex()">Convert</button>
+        <p id="binaryToHexResult"></p>
+    </div>
+
+    <div class="conversion-container">
+        <h2>Hex to Binary</h2>
+        <input type="text" id="hexToBinaryInput" placeholder="Enter hexadecimal number">
+        <button onclick="hexToBinary()">Convert</button>
+        <p id="hexToBinaryResult"></p>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>
